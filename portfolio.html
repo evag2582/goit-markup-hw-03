@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>WebStudio</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
@@ -15,7 +18,8 @@
     >
   </head>
   <body>
-    <header>
+    <header class="container">
+      <div class="menu-container">
       <nav>
         <a class="study" href="">WebStudio</a>
         <ul class="links">
@@ -24,69 +28,77 @@
           <li><a class="link3" href="#">Contactos</a></li>
         </ul>
       </nav>
-        <ul>
-          <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
-        </ul>
+      <ul>
+        <li>
+          <a class="contact1" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact2" href="tel:+525555296000">+525555296000</a>
+        </li>
+      </ul>
+      </div>
     </header>
-    <main>
+    <main class="container">
       <section>
-        <ul>
+        <ul class="buttons-container">
           <li><button class="buttons" type="button">Todo</button></li>
           <li><button class="buttons" type="button">Sitios-Web</button></li>
           <li><button class="buttons" type="button">Aplicaciones</button></li>
           <li><button class="buttons" type="button">Diseño</button></li>
           <li><button class="buttons" type="button">Marketing</button></li>
         </ul>
-        <ul>
-          <li>
-            <img src="./images/tecnoduck.jpg" alt="Tecnoduck" width="280" >
+        <ul class="proyects-container">
+          <li class="proyects-card">
+            <img src="./images/tecnoduck.jpg" alt="Tecnoduck" width="370">
             <h3>Tecnoduck</h3>
             <p>Sitio-Web</p>
           </li>
-          <li>
-            <img src="./images/posterneworle.jpg" alt="poster" width="280" >
-            <h3>Poster de Nueva Orleans vs Estrella Dorada</h3>
+          <li class="proyects-card">
+            <img src="./images/posterneworle.jpg" alt="poster" width="370">
+            <h3>Poster de Nueva Orleans vs </h3>
+            <h3>Estrella Dorada</h3>
           </li>
-          <li>
-            <img src="./images/seafood.jpg" alt="food" width="280" >
+          <li class="proyects-card">
+            <img src="./images/seafood.jpg" alt="food" width="370">
             <h3>Restaurante Seafood</h3>
             <p>Aplicaciones</p>
           </li>
-          <li>
-            <img src="./images/prime.jpg" alt="Proyecto Prime" width="280" >
+          <li class="proyects-card">
+            <img src="./images/prime.jpg" alt="Proyecto Prime" width="370">
             <h3>Proyecto Prime</h3>
             <p>Marketing</p>
           </li>
-          <li>
-            <img src="./images/box.jpg" alt="Proyecto Cajas" width="280" >
+          <li class="proyects-card">
+            <img src="./images/box.jpg" alt="Proyecto Cajas" width="370">
             <h3>Proyecto Cajas</h3>
             <p>Aplicaciones</p>
           </li>
-          <li>
+          <li class="proyects-card">
             <img
               src="./images/limit.jpg"
               alt="La inspiración no tiene límites"
-              width="280"
+              width="370"
             >
             <h3>La inspiración no tiene límites</h3>
             <p>Sitio-web</p>
           </li>
-          <li>
-            <img src="./images/prime.jpg" alt="Edición Limitada" width="280" >
+          <li class="proyects-card">
+            <img src="./images/prime.jpg" alt="Edición Limitada" width="370">
             <h3>Edición Limitada</h3>
             <p>Diseño</p>
           </li>
-          <li>
-            <img src="./images/lab.jpg" alt="Proyecto LAB" width="280" >
+          <li class="proyects-card">
+            <img src="./images/lab.jpg" alt="Proyecto LAB" width="370">
             <h3>Proyecto LAB</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="proyects-card">
             <img
               src="./images/crecimiento.jpg"
               alt="Negocio en Crecimiento"
-              width="280"
+              width="370"
             >
             <h3>Negocio en Crecimiento</h3>
             <p>Aplicaciones</p>
@@ -94,7 +106,8 @@
         </ul>
       </section>
     </main>
-    <footer class="piepage">
+    <footer class="container">
+      <div class="piepage">
       <a class="study" href="">WebStudio</a>
       <address>
         <ul>
@@ -103,6 +116,7 @@
           <li><a class="contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
