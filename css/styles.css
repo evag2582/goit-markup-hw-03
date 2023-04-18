@@ -19,9 +19,9 @@ li {
 }
 section{
   padding-top: 94px;
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.study {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -88,9 +88,9 @@ section{
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-.link1:active,
-.link2:active,
-.link3:active,
+.link1.active,
+.link2.active,
+.link3.active,
 .button1:active,
 .contact:active {
   color: var(--brand2-color);
