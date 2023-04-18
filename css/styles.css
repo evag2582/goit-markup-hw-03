@@ -262,7 +262,7 @@ section{
   border: 1px solid #ececec;
   width: 1200px;
   border-bottom-width: 1px;
-  border-bottom-color: 1px solid #ececec;
+  border-bottom-color: #ececec;
 }
 .team-container,
 .buttons-container {
