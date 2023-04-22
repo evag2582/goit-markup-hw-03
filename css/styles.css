@@ -348,24 +348,6 @@ section{
     top: 80px;
   border-bottom: 1px solid #ECECEC;
 }
-.address1{
-  /* position: absolute; */
-    width: 231px;
-    /* height: 21px;
-    left: 215px;
-    top: 2258px; */
-  
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
-  
-    color: var(--brand3-color)
-  }
 .address1 {
 /* position: absolute; */
   width: 231px;
