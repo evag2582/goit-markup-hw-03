@@ -24,10 +24,7 @@ section{
   padding-bottom: 94px;
 }
 .logo {
-    /* width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px; */
+  width: 145px;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -37,6 +34,7 @@ section{
   letter-spacing: 0.03em;
   color: var(--brand2-color);
   text-decoration: none;
+  margin-right: 40px;
 }
 .logo2 {
   width: 145px;
@@ -51,14 +49,10 @@ section{
   text-decoration: none;
 }
 .links{
-  display: flex;
+  display: inline-flex;
 }
 .link1 {
-  position: absolute;
   width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px; 
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -66,13 +60,10 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-right: 20px;
 }
 .link2 {
-  position: absolute;
   width: 65px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -80,13 +71,10 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-right: 20px;
 }
 .link3 {
-  position: absolute;
   width: 59px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -94,6 +82,7 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-right: 20px;
 }
 .link1:hover,
 .link2:hover,
@@ -157,25 +146,17 @@ section{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 .contact5 {
-/* position: absolute; */
   width: 231px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 .title1 {
@@ -338,13 +319,6 @@ section{
   width: 100%;
   height: 252px;
   background: var(--brand5-color);
-}
-.borde{
-  width: auto;
-    height: 0px;
-    left: 0px;
-    top: 80px;
-  border-bottom: 1px solid #ECECEC;
 }
 .address1 {
   width: 231px;
