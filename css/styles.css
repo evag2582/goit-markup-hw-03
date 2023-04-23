@@ -24,20 +24,10 @@ section{
   padding-bottom: 94px;
 }
 .logo {
-  width: 145px;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: var(--brand2-color);
-  text-decoration: none;
-  margin-right: 40px;
-}
-.logo2 {
-  width: 145px;
+    /* width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px; */
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -52,7 +42,11 @@ section{
   display: inline-flex;
 }
 .link1 {
+  position: absolute;
   width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px; 
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -60,10 +54,13 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
-  margin-right: 20px;
 }
 .link2 {
+  position: absolute;
   width: 65px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -71,10 +68,13 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
-  margin-right: 20px;
 }
 .link3 {
+  position: absolute;
   width: 59px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -82,7 +82,6 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
-  margin-right: 20px;
 }
 .link1:hover,
 .link2:hover,
@@ -139,17 +138,7 @@ section{
   list-style: none;
   text-decoration: none;
 }
-.contact4 {
-  width: 231px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.contact5 {
+.contact3 {
   width: 231px;
   font-family: 'Roboto';
   font-style: normal;
@@ -333,15 +322,4 @@ section{
   letter-spacing: 0.03em;
 
   color: var(--brand3-color);
-}
-.logo3{
-  position: absolute;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-  text-decoration: none;
-    letter-spacing: 0.03em;
-    color: var(--brand2-color);
 }
