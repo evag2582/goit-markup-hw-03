@@ -24,8 +24,8 @@ section{
   padding-bottom: 94px;
 }
 .logo {
-    /* width: 145px;
-    height: 31px;
+    width: 145px;
+    /* height: 31px;
     left: 215px;
     top: 24px; */
   font-family: 'Raleway', sans-serif;
@@ -37,16 +37,17 @@ section{
   letter-spacing: 0.03em;
   color: var(--brand2-color);
   text-decoration: none;
+  margin-right: 20px;
 }
 .links{
   display: inline-flex;
 }
 .link1 {
-  position: absolute;
+  /* position: absolute; */
   width: 49px;
-  height: 16px;
+  /* height: 16px;
   left: 453px;
-  top: 32px; 
+  top: 32px;  */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -54,13 +55,14 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-right: 20px;
 }
 .link2 {
-  position: absolute;
+  /* position: absolute; */
   width: 65px;
-  height: 16px;
+  /* height: 16px;
   left: 552px;
-  top: 32px;
+  top: 32px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -68,13 +70,14 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-right: 20px;
 }
 .link3 {
-  position: absolute;
+  /* position: absolute; */
   width: 59px;
-  height: 16px;
+  /* height: 16px;
   left: 679px;
-  top: 32px;
+  top: 32px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -82,11 +85,22 @@ section{
   letter-spacing: 0.02em;
   color: var(--brand-color);
   text-decoration: none;
+  margin-right: 400px;
 }
 .link1:hover,
 .link2:hover,
 .link3:hover,
-.contact:hover {
+.contact1:hover,
+.contact2:hover,
+.contact3:hover{
+  color: var(--brand2-color);
+}
+.link1:focus,
+.link2:focus,
+.link3:focus,
+.contact1:focus,
+.contact2:focus,
+.contact3:focus {
   color: var(--brand2-color);
 }
 .buttons:hover,
@@ -109,11 +123,11 @@ section{
   color: var(--brand3-color);
 }
 .contact1{
-  position: absolute;
+  /* position: absolute; */
   width: 135px;
-  height: 16px;
+  /* height: 16px;
   left: 980px;
-  top: 32px;
+  top: 32px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -122,13 +136,14 @@ section{
   color: var(--brand4-color);
   list-style: none;
   text-decoration: none;
+  margin-right: 10px;
 }
 .contact2 {
-  position: absolute;
+  /* position: absolute; */
   width: 118px;
-  height: 16px;
+  /* height: 16px;
   left: 1120px;
-  top: 32px;
+  top: 32px; */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -149,10 +164,16 @@ section{
   color: rgba(255, 255, 255, 0.6);
 }
 .title1 {
+  width: 696px;
+  height: 120px;
+  left: 448px;
+  top: 280px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
+  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -164,6 +185,9 @@ section{
 }
 .button1 {
   width: 261px;
+  height: 50px;
+    left: 666px;
+    top: 430px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -172,7 +196,6 @@ section{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--brand3-color);
@@ -258,7 +281,7 @@ section{
   color: var(--brand3-color);
 }
 .container {
-  padding: 0 15px;
+  padding: 15 15px;
   width: 1200px;
   box-sizing: border-box;
   margin-left: auto;
@@ -293,9 +316,11 @@ section{
 }
 .top{
   border-top: 1px solid #ececec;
-  width: 100%;
+  width: auto;
+  height: 600px;
+  left: -4px;
+  top: 80px;
   background: var(--brand5-color);
-  text-align: center;
 }
 .top2 {
   border-top: 1px solid #ececec;
